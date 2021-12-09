@@ -2,13 +2,128 @@
     margin: 0;
     padding: 0;
     border: 0;
-    font-size: 100%;
     font: inherit;
     vertical-align: baseline;
 }
 #header{
     display: flex;
 }
-.logo_img h1>a{
-    vertical-align: middle;
+h1{
+    display: flex;
+    margin-block-start: 0.67em;
+    margin-block-end: 0.67em;
+    margin-inline-start: 0px;
+    margin-inline-end: 0px;
 }
+a{
+    color:rgb(51,51,51);
+    text-decoration: none;
+}
+body{
+    font-size: 12px;
+    line-height: 1.5;
+    font-family: "Apple SD Gothic Neo","맑은 고딕","Malgun Gothic", 돋움, dotum, sans-serif;;
+    color: rgb(118,118, 118);
+    letter-spacing: -1px;
+    background-color: rgb(236, 236, 238);
+    text-size-adjust: none;
+    margin: 0px;
+    padding: 0px;
+    display: flex;
+}
+#login{
+    max-width: 700px;
+    min-height: 100%;
+    text-align: center;
+    margin: 0px auto;
+    background: #fff;
+}
+.inner_head{
+    padding-top: 85px;
+}
+.inner_head .link_daum{
+    display: flex;
+    width:  142px;
+    height: 58px;
+    margin: 0px auto;
+    background: url("https://t1.daumcdn.net/id/logins/2021/retina/logo_daum.png") 0px 0px / 142px 58px no-repeat;
+}
+.ir_wa{
+    /*span 삭제*/
+    display: flex;
+    z-index: -1;
+    width: 100%;
+    height: 100%;
+    overflow: hidden;
+}
+.hide{
+    display: none;
+}
+.screen_out{
+    position: absolute;
+    width: 0px;
+    height: 0px;
+    line-height: 0;
+    text-indent: -9999px;
+    overflow: hidden;
+}
+.section_login{
+    min-height: 402px;
+    padding-bottom: 20px;
+}
+.login_default{
+    max-width: 420px;
+    padding-top: 30px;
+    margin: 0px auto;
+}
+.login_default .login_change{
+    text-align: right;
+}
+.login_change .link_change{
+    line-height: 20px;
+    letter-spacing: -0.1em;
+    display: inline-block;
+    height: 24px;
+    color: #000;
+    vertical-align: top;
+}
+.link_change .link_change .icon_login{
+    width: 14px;
+    height: 12px;
+    margin: 4px 5px 0px 0px;
+    background-position: -70px 0px;
+}
+.icon_login{
+    display: inline-block;
+    font-size: 0px;
+    line-height: 0;
+    text-indent: -9999px;
+    vertical-align: top;
+    background: url("https://t1.daumcdn.net/id/logins/2021/retina/ico_login.png") 0px 0px / 200px 100px no-repeat;
+}
+
+fieldset{
+    border-width: 0px;
+    border-style: none;
+    border-color: initial;
+    border-image: initial;
+}
+fieldset{
+    margin-inline-start: 2px;
+    margin-inline-end: 2px;
+    margin-block-start: 0.35em;
+    margin-inline-start: 0.75em;
+    margin-inline-end: 0.75em;
+    margin-block-end: 0.625em;
+    min-inline-size: min-content;
+}
+legend{
+    display: block;
+    padding-inline-start: 2px;
+    padding-inline-end: 2px;
+    border-width: initial;
+    border-style: none;
+    border-color: initial;
+    border-image: initial;
+}
+
