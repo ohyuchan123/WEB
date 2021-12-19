@@ -5,9 +5,6 @@
     font: inherit;
     vertical-align: baseline;
 }
-#header{
-    display: flex;
-}
 h1{
     display: block;
     font-size: 2em;
@@ -36,9 +33,9 @@ body{
 #login{
     max-width: 700px;
     min-height: 100%;
-    text-align: center;
     margin: 0px auto;
     background: #fff;
+    text-align: center;
 }
 .inner_head{
     padding-top: 85px;
@@ -64,12 +61,12 @@ body{
     display: none;
 }
 .screen_out{
+    overflow: hidden;
     position: absolute;
     width: 0px;
     height: 0px;
     line-height: 0;
     text-indent: -9999px;
-    overflow: hidden;
 }
 .section_login{
     min-height: 650px;
@@ -106,22 +103,6 @@ body{
     vertical-align: top;
     background: url("https://t1.daumcdn.net/id/logins/2021/retina/ico_login.png") 0px 0px / 200px 100px no-repeat;
 }
-
-fieldset{
-    border-width: 0px;
-    border-style: none;
-    border-color: initial;
-    border-image: initial;
-}
-fieldset{
-    margin-inline-start: 2px;
-    margin-inline-end: 2px;
-    margin-block-start: 0.35em;
-    margin-inline-start: 0.75em;
-    margin-inline-end: 0.75em;
-    margin-block-end: 0.625em;
-    min-inline-size: min-content;
-}
 legend{
     display: block;
     padding-inline-start: 2px;
@@ -140,21 +121,6 @@ legend{
 }
 label{
     cursor: default;
-}
-.tf{
-    display: block;
-    width: 100%;
-    height: 46px;
-    padding: 10px 44px 6px 14px;
-    border: 0 none;
-    font-weight: bold;
-    font-size: 15px;
-    line-height: 30px;
-    color: #000;
-    background: transparent;
-    outline: 0;
-    box-sizing: border-box;
-    letter-spacing: 0;
 }
 button{
     font-size: 12px;
