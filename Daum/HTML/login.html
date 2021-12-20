@@ -12,13 +12,24 @@
     <div id="login">
         <header id="header">
             <div class="inner_head">
-                <h1>
+                <h1 class="main_logo">
                     <a href="https://www.daum.net" id="daumLogo" class="link_daum" alt="Daum" data-tiara-action-name="Daum_첫화면">
                         <span class="ir_wa">DAUM</span>
                     </a> 
                 </h1>
             </div>
         </header>
+        <div class="middle">
+            <form id="login-form">
+                <div class="box_inp">
+                    <input required maxlength="15" type="text" placeholder="아이디">
+                </div>
+                <div class="box_inp">
+                    <input required maxlength="15" type="text" placeholder="비밀번호">
+                </div>
+                <button id="loginBtn" type="submit" class="btn_comm" data-tiara-action-name="로그인_버튼">로그인</button>
+            </form>
+        </div>
     </div>
 </body>
 </html>
