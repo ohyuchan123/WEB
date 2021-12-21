@@ -33,6 +33,7 @@ body{
 }
 div{
     display: block;
+    position: relative;
 }
 #login{
     max-width: 700px;
@@ -184,6 +185,8 @@ label{
     color: #999;
     letter-spacing: -0.05em;
     pointer-events: none;
+    top: 14px;
+    left: 14px;
 }
 
 
