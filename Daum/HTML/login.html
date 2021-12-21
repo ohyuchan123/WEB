@@ -20,17 +20,28 @@
             </div>
         </header>
         <div class="middle">
-            <form id="login-form">
-                <div class="box_inp">
-                    <label for="id" class="lab_g" style="display:block;">아이디</label>
-                    <input required maxlength="15" type="email" id="id" name="id" value class="tf_g">
-                </div>
-                <div class="box_inp">
-                    <label for="id" class="lab_g" style="display: block;">비밀번호</label>
-                    <input type="password" id="inputPwd" class="tf_g" maxlength="32" autocomplete="off">
-                </div>
-                <button id="loginBtn" type="submit" class="btn_comm" data-tiara-action-name="로그인_버튼">로그인</button>
-            </form>
+            <div class="login_change">
+                <a href="#" class="link_change" data-tiara-action-name="다른_방법으로_로그인_버튼">
+                     <span class="ico_login ico_change"></span>다른 방법으로 로그인
+                </a>
+             </div>
+            <div class="box_inp">
+                <label for="id" class="lab_g" style="display:block;">아이디</label>
+                <input required maxlength="15" type="email" id="id" name="id" value class="tf_g">
+            </div>
+            <div class="box_inp">
+                <label for="id" class="lab_g" style="display: block;">비밀번호</label>
+                <input type="password" id="inputPwd" class="tf_g" maxlength="32" autocomplete="off">
+            </div>
+            <button id="loginBtn" type="submit" class="btn_comm" data-tiara-action-name="로그인_버튼">로그인</button>
+            <div class="group_set">
+                <span class="check_g">
+                    <input type="checkbox" id="stln" name="stln" value="1" class="inp_check" data-tiara-action-name="로그인_상태_유지_checkbox_input">
+                </span>
+                <span class="set_comn">
+                    <label for="stln" class="lab_check" >로그인 상태 유지</label>
+                </span>
+            </div>
         </div>
     </div>
 </body>
