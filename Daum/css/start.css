@@ -113,13 +113,6 @@ legend{
     border-color: initial;
     border-image: initial;
 }
-.lab_g{
-    position: absolute;
-    font-size: 15px;
-    color: #999;
-    letter-spacing: -0.05em;
-    pointer-events: none;
-}
 label{
     cursor: default;
 }
@@ -135,7 +128,6 @@ button{
     vertical-align: middle;
 }
 input{
-    vertical-align: middle;
     font-weight: 700;
     line-height: 30px;
     font-size: 15px;
@@ -159,6 +151,16 @@ input{
     height: 46px;
     width: 418px;
     padding: 8px 44px 10px 14px;
+}
+label{
+    cursor: default;
+}
+.lab_g{
+    position: absolute;
+    font-size: 15px;
+    color: #999;
+    letter-spacing: -0.05em;
+    pointer-events: none;
 }
 
 
