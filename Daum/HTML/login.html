@@ -34,12 +34,24 @@
                 <input type="password" id="inputPwd" class="tf_g" maxlength="32" autocomplete="off">
             </div>
             <button id="loginBtn" type="submit" class="btn_comm" data-tiara-action-name="로그인_버튼">로그인</button>
-            <div class="group_set">
-                <span class="check_g">
-                    <input type="checkbox" id="stln" name="stln" value="1" class="inp_check" data-tiara-action-name="로그인_상태_유지_checkbox_input">
-                </span>
-                <span class="set_comn">
-                    <label for="stln" class="lab_check" >로그인 상태 유지</label>
+            <div class="set_login" > 
+                <div class="group_set">
+                    <span class="set_comm" >
+                        <label for="stln" class="lab_check" data-tiara-action-name="로그인_상태_유지_checkbox_label">로그인 상태 유지</label>
+                        <span class="check_g">
+                            <input type="checkbox" id="stln" name="stln" value="1" class="inp_check" data-tiara-action-name="로그인_상태_유지_checkbox_input" >
+                            <span class="ico_login ico_check">선택안됨</span> 
+                        </span>
+                    </span>
+                <div class="layer_set" style="display: none;">
+                    <p class="desc_set">개인정보 보호를 위해, 개인 기기에서만 사용해 주세요.</p>
+                    <span class="ico_login ico_point"></span>
+                </div>
+                </div>
+                <span class="set_security ">
+                    <a href="#none" id="linkSecurity" class="link_security" target="_blank" data-tiara-action-name="IP보안">IP보안</a>
+                    <input type="checkbox" id="ipSecurity" name="ipSecurity" class="inp_check" value="checked" checked="checked">
+                    <label for="ipSecurity" class="ico_login lab_security" data-tiara-action-name="IP보안_설정_checkbox_ON_OFF">IP보안 설정 ON</label><!-- inp_check에 초점이 이동한경우 해당 lab_security요소에 focus클래스 추가 / ON,OFF선택에 맞게 'IP보안 설정 ON','IP보안 설정 OFF'로 대체텍스트 제공 -->
                 </span>
             </div>
         </div>

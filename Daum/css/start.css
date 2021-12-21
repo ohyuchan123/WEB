@@ -19,6 +19,7 @@ a{
     text-decoration: none;
 }
 body{
+    display: block;
     font-size: 12px;
     line-height: 1.5;
     font-family: "Apple SD Gothic Neo","맑은 고딕","Malgun Gothic", 돋움, dotum, sans-serif;;
@@ -29,7 +30,6 @@ body{
     margin: 0px;
     padding: 0px;
     font-weight: 100;
-    display: flex;
 }
 div{
     display: block;
@@ -152,7 +152,6 @@ input{
     font-weight: 700;
     line-height: 30px;
     font-size: 15px;
-    height: 46px;
     width: 418px;
     padding: 8px 44px 10px 14px;
     display: flex;
@@ -186,36 +185,6 @@ label{
     letter-spacing: -0.05em;
     pointer-events: none;
 }
-.group_set{
-    float: left;
-    position: relative;
-    margin-top: 12px;
-}
-.set_comn{
-    display: block;
-    overflow: hidden;
-}
-.set_comn .lab_check{
-    float: right;
-}
-.lab_check{
-    padding-top: 0;
-}
-.lab_check {
-    padding: 2px 0 0 8px;
-    font-weight: 700;
-    font-size: 16px;
-    line-height: 20px;
-    color: #555;
-    letter-spacing: -0.05em;
-}
-.check_g {
-    float: left;
-    position: relative;
-    width: 22px;
-    height: 22px;
-}
-.inp_check{
-    height: 28px;
-}
+
+
 
