@@ -25,15 +25,17 @@
                      <span class="ico_login ico_change"></span>다른 방법으로 로그인
                 </a>
              </div>
-            <div class="box_inp">
-                <label for="id" class="lab_g" style="display:block;">아이디</label>
-                <input required maxlength="15" type="email" id="id" name="id" value class="tf_g">
-            </div>
-            <div class="box_inp">
-                <label for="id" class="lab_g" style="display: block;">비밀번호</label>
-                <input type="password" id="inputPwd" class="tf_g" maxlength="32" autocomplete="off">
-            </div>
-            <button id="loginBtn" type="submit" class="btn_comm" data-tiara-action-name="로그인_버튼">로그인</button>
+             <form id="login-form">
+                <div class="box_inp">
+                    <!-- <label for="id" class="lab_g" style="display:block;">아이디</label> -->
+                    <input required maxlength="40   " type="email" id="id" name="id" value class="tf_g" placeholder="아이디">
+                </div>
+                <div class="box_inp">
+                    <!-- <label for="id" class="lab_g" style="display: block;">비밀번호</label> -->
+                    <input type="password" id="inputPwd" class="tf_g" maxlength="32" autocomplete="off" placeholder="비밀번호">
+                </div>
+                <button id="loginBtn" type="submit" class="btn_comm" data-tiara-action-name="로그인_버튼">로그인</button>
+             </form>
             <div class="set_login" > 
                 <div class="group_set">
                     <span class="set_comm" >
