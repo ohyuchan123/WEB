@@ -162,9 +162,7 @@ input{
     font-weight: 700;
     line-height: 30px;
     font-size: 15px;
-    width: 418px;
     padding: 8px 44px 10px 14px;
-    display: flex;
     cursor: text;
     transform: none;
     box-sizing: border-box;
@@ -188,8 +186,14 @@ input:focus{
     background: #4c87ee;
     letter-spacing: 0;
 }
-label{
+.checkbox{
     cursor: default;
+    font-weight: 700;
+    font-size: 16px;
+    padding: 2px 0 0 8px;
+    line-height: 45px;
+    color: #555;
+    float: left;
 }
 /* .lab_g{
     position: absolute;
@@ -200,61 +204,45 @@ label{
     top: 14px;
     left: 14px;
 } */
-.set_login{
-    position: relative;
+.check{
+    cursor: pointer;
+    appearance: none;
 }
-.group_set{
+.a.jsp{
     float: left;
+}
+input[type="checkbox"]{
+    width: 25px;
+    height: 25px;
     position: relative;
-    margin-top: 12px;
+    top: 4px;
+    float: left;
 }
-.set_comn{
-    display: block;
-    overflow: hidden;
-}
-.set_comn .lab_check{
-    float: right;
-}
-.lab_check{
-    padding-top: 0;
-    display: inline-block;
-    overflow: hidden;
-    position: static;
-    padding: 2px 0 0 8px;
+.link_security{
+    cursor: default;
     font-weight: 700;
     font-size: 16px;
-    line-height: 20px;
+    padding: 2px 0 0 8px;
+    line-height: 45px;
     color: #555;
-    cursor: pointer;
+    float: right;
+}
+.login_rel{
+    padding-top: 70px;
+}
+.link_rel{
+    display: inline-block;
+    font-size: 16px;
+    color: #666;
     vertical-align: top;
     letter-spacing: -0.05em;
 }
-.chech_g{
-    float: left;
-    position: relative;
-    width: 22px;
-    height: 22px;
-}
-.inp_check{
-    position: relative;
-    left: 0;
-    top: 0;
-    z-index: 1;
-    width: 100%;
-    height: 100%;
-    border: 0;
-    opacity: .01;
-    cursor: pointer;
-}
-.ico_login {
+.txt_bar{
     display: inline-block;
-    background: url("https://t1.daumcdn.net/id/logins/2021/retina/ico_login.png") no-repeat 0 0;
-    background-size: 200px 100px;
-    font-size: 0;
-    line-height: 0;
+    width: 1px;
+    height: 16px;
+    margin: 3px 15px 0 18px;
+    background: #d6d6d6;
     text-indent: -9999px;
     vertical-align: top;
 }
-
-
-
